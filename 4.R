@@ -15,8 +15,3 @@ set.seed(1111)
 y <- rnorm(n = 10, mean = 35, sd = 10)
 # 调用函数判断每个值是否高于35
 r <- check_above_threshold(y, threshold = 35)
-# 输出结果表格
-data.frame(
-  值 = y,
-  是否高于35 = r
-)
